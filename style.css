@@ -24,51 +24,80 @@ Set the text size for the “characters” div to 18 pixels
 
 Set the letter spacing for the h4 to 15 pixels */
 
-/* #1 */
-html{
-    font-family: 'Orbitron';
-    font-size: 10px;
-}
-
 /* #2 */
+html{
+    font-family: 'orbitron', sans-serif;
+    }
+
+/* #3 */
 span{
     font-weight: bold;
 }
 
-/* #3 */
+/* #4 */
 h1{
+    /* 4 */
     font-size: 50px;
+    /* #5 */
     letter-spacing: 10px;
+    /* #6 */
     text-align: center;
+    /* #7 */
     text-transform: uppercase;
+    /* #8 */
     text-decoration: underline;
-       }
+}
 
-/* #4 see #3 */
-/* #5 see #3 */
-/* #6 see #3 */
-/* #7 see #3 */
-/* #8 */
-div{
+/* #9  */
+/* got wrong. I just used div not #series-movies */
+#series-movies{
     font-size: 20px;
 }
 
-/* #9 */
+/* #10 */
+/* got wrong. made corrections */
 h2{
-    font-size: 4em;
+    font-size: 2em;
 }
 
-/* 10 */
+/* 11 */
 li{
     line-height: 2;
 }
 
-/* #11 */
-#div-characters{
-    font-size: 18;
+/* #12 */
+#characters{
+    font-size: 18px;
 }
 
-/* #12 */
+/* 13 */
 h4{
     letter-spacing: 15px;
 }
+
+/* Bonus Content */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+h4{
+    font-family: 'press start 2p';
+}
+
+h2, h3, h4 {
+    text-align: center;
+  }
+
+  li{
+      font-size: 1rem;
+  }
+
+html{
+    background-image: url(starTrek.jpg);
+
+    color: rgba(255,255,255, 0.6);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
