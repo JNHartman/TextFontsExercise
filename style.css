@@ -1,0 +1,74 @@
+/* Go to fonts.google.com and get the “Orbitron” font (Select the Regular 400 and Bold 700 styles). Set up your link for that font in your html file so you can use it in your CSS file.
+
+Go into your css file and set the font for the root element to the “Orbitron” font (HINT: You can copy this from the Google Fonts page/site)
+
+Make all the span elements bold
+
+Set the text size of the h1 to 50 pixels
+
+Add 10 pixels of spacing between the letters in the h1
+
+Move the h1 to the center
+
+Capitalize all the letters in the h1 (Must complete this in the CSS file)
+
+Add the style to the h1 that will give it an underline
+
+Set the text size of the “series-movies” div to 20 pixels
+
+Use em to set the text size for the two h2 elements to 40 pixels
+
+Set the spacing between each li element to 2
+
+Set the text size for the “characters” div to 18 pixels
+
+Set the letter spacing for the h4 to 15 pixels */
+
+/* #1 */
+html{
+    font-family: 'Orbitron';
+    font-size: 10px;
+}
+
+/* #2 */
+span{
+    font-weight: bold;
+}
+
+/* #3 */
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+       }
+
+/* #4 see #3 */
+/* #5 see #3 */
+/* #6 see #3 */
+/* #7 see #3 */
+/* #8 */
+div{
+    font-size: 20px;
+}
+
+/* #9 */
+h2{
+    font-size: 4em;
+}
+
+/* 10 */
+li{
+    line-height: 2;
+}
+
+/* #11 */
+#div-characters{
+    font-size: 18;
+}
+
+/* #12 */
+h4{
+    letter-spacing: 15px;
+}
